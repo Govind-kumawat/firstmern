@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 12vh;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+#navbarSupportedContent {
+  justify-content: flex-end;
+  margin-right: 16px;
+}
+
+nav div ul li {
+  display: block;
+  margin-right: 20px;
+}
+
+.sr-only {
+  display: none;
+}
+
+body .container1 {
+  width: 100vw;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: azure; */
+}
+
+
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.form-group {
+  border-style: none;
+  margin-top: 10px;
+  border-block-end-style: ridge;
+  border-color: rgb(249, 237, 237);
+}
+
+.form-group input {
+  margin-left: 15px;
+}
+
+.form-group .work,
+.name,
+.phone,
+.email,
+.password,
+.cpassword {
+  border-style: none;
+}
+
+.form-button {
+  margin-top: 20px;
+}
+
+.form-button #signup {
+  width: 150px;
+  height: 35px;
+  background-color: rgb(27, 190, 27);
+  border-radius: 4px;
+  border-color: #4bf20e;
+}
+
+.signup-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-content {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.photo {
+  height: 60px;
+  width: 60px;
+}
